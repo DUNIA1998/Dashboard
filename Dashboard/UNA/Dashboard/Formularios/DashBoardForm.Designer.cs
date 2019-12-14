@@ -42,6 +42,7 @@
             this.CheckToolStripButton = new System.Windows.Forms.ToolStripButton();
             this.PrincipalStatusStrip = new System.Windows.Forms.StatusStrip();
             this.UsuarioToolStripStatusLabel = new System.Windows.Forms.ToolStripStatusLabel();
+            this.UserToolStripStatusLabel = new System.Windows.Forms.ToolStripStatusLabel();
             this.PrincipalMenuStrip.SuspendLayout();
             this.PrincipalToolStrip.SuspendLayout();
             this.PrincipalStatusStrip.SuspendLayout();
@@ -69,7 +70,7 @@
             // cerrarSeionToolStripMenuItem
             // 
             this.cerrarSeionToolStripMenuItem.Name = "cerrarSeionToolStripMenuItem";
-            this.cerrarSeionToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.cerrarSeionToolStripMenuItem.Size = new System.Drawing.Size(138, 22);
             this.cerrarSeionToolStripMenuItem.Text = "Cerrar Seion";
             // 
             // VerToolStripMenuItem
@@ -146,7 +147,8 @@
             // PrincipalStatusStrip
             // 
             this.PrincipalStatusStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.UsuarioToolStripStatusLabel});
+            this.UsuarioToolStripStatusLabel,
+            this.UserToolStripStatusLabel});
             this.PrincipalStatusStrip.Location = new System.Drawing.Point(0, 301);
             this.PrincipalStatusStrip.Name = "PrincipalStatusStrip";
             this.PrincipalStatusStrip.Size = new System.Drawing.Size(444, 22);
@@ -158,6 +160,12 @@
             this.UsuarioToolStripStatusLabel.Name = "UsuarioToolStripStatusLabel";
             this.UsuarioToolStripStatusLabel.Size = new System.Drawing.Size(87, 17);
             this.UsuarioToolStripStatusLabel.Text = "Usuario Actual:";
+            // 
+            // UserToolStripStatusLabel
+            // 
+            this.UserToolStripStatusLabel.Name = "UserToolStripStatusLabel";
+            this.UserToolStripStatusLabel.Size = new System.Drawing.Size(34, 17);
+            this.UserToolStripStatusLabel.Text = "USER";
             // 
             // DashBoardForm
             // 
@@ -171,6 +179,7 @@
             this.MainMenuStrip = this.PrincipalMenuStrip;
             this.Name = "DashBoardForm";
             this.Text = "Sistema de Control Estudiantil";
+            this.Load += new System.EventHandler(this.DashBoardForm_Load);
             this.PrincipalMenuStrip.ResumeLayout(false);
             this.PrincipalMenuStrip.PerformLayout();
             this.PrincipalToolStrip.ResumeLayout(false);
@@ -197,5 +206,6 @@
         private System.Windows.Forms.ToolStripButton CheckToolStripButton;
         private System.Windows.Forms.StatusStrip PrincipalStatusStrip;
         private System.Windows.Forms.ToolStripStatusLabel UsuarioToolStripStatusLabel;
+        private System.Windows.Forms.ToolStripStatusLabel UserToolStripStatusLabel;
     }
 }

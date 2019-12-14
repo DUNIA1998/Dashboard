@@ -81,12 +81,14 @@
             // 
             // cancelarButton
             // 
+            this.cancelarButton.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.cancelarButton.Location = new System.Drawing.Point(84, 260);
             this.cancelarButton.Name = "cancelarButton";
             this.cancelarButton.Size = new System.Drawing.Size(87, 23);
             this.cancelarButton.TabIndex = 4;
             this.cancelarButton.Text = "Cancelar";
             this.cancelarButton.UseVisualStyleBackColor = true;
+            this.cancelarButton.Click += new System.EventHandler(this.cancelarButton_Click);
             // 
             // aceptarButton
             // 
@@ -96,6 +98,7 @@
             this.aceptarButton.TabIndex = 5;
             this.aceptarButton.Text = "Aceptar";
             this.aceptarButton.UseVisualStyleBackColor = true;
+            this.aceptarButton.Click += new System.EventHandler(this.aceptarButton_Click);
             // 
             // olvidoCLinkLabel
             // 
@@ -113,7 +116,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.cancelarButton;
-            this.ClientSize = new System.Drawing.Size(527, 450);
+            this.ClientSize = new System.Drawing.Size(510, 310);
             this.Controls.Add(this.olvidoCLinkLabel);
             this.Controls.Add(this.aceptarButton);
             this.Controls.Add(this.cancelarButton);

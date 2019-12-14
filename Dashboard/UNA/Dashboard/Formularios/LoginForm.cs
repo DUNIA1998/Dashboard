@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using UNA.Dashboard.Seguridad;
 
 namespace Dashboard
 {
@@ -44,6 +45,32 @@ namespace Dashboard
             {
                 LoginErrorProvider.SetError(contraseñaTextBox, "");
             }
+        }
+
+        private void aceptarButton_Click(object sender, EventArgs e)
+        {
+            if (contraseñaTextBox.TextLength!=0 &&usuarioTextBox.TextLength!=0  )
+            {
+                DialogResult = DialogResult.OK;
+                User newUser = new User();
+                newUser.UserName = usuarioTextBox.Text;
+                newUser.UserPassword = contraseñaTextBox.Text;
+                Usuario = newUser;
+                this.Close();
+            }
+        }
+
+
+
+        public User Usuario
+        {
+            get;
+            set;
+        }
+
+        private void cancelarButton_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Para usar Aplicacion Debe Autentificar", "Error");
         }
     }
 }
