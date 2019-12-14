@@ -1,0 +1,49 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Dashboard
+{
+    public partial class LoginForm : Form
+    {
+        public LoginForm()
+        {
+            InitializeComponent();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void usuarioTextBox_Leave(object sender, EventArgs e)
+        {
+            if(usuarioTextBox.TextLength == 0)
+            {
+                LoginErrorProvider.SetError(usuarioTextBox, "Datos Requeridos");
+            }
+            else
+            {
+                LoginErrorProvider.SetError(usuarioTextBox,"");
+            }
+        }
+
+        private void contraseñaTextBox_Leave(object sender, EventArgs e)
+        {
+            if (contraseñaTextBox.TextLength == 0)
+            {
+                LoginErrorProvider.SetError(contraseñaTextBox, "Datos Requeridos");
+            }
+            else
+            {
+                LoginErrorProvider.SetError(contraseñaTextBox, "");
+            }
+        }
+    }
+}

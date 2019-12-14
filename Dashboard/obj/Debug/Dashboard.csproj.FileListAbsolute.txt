@@ -1,0 +1,9 @@
+C:\Users\Dunia Méndez\Desktop\Dashboard\Dashboard\Dashboard\bin\Debug\Dashboard.exe.config
+C:\Users\Dunia Méndez\Desktop\Dashboard\Dashboard\Dashboard\bin\Debug\Dashboard.exe
+C:\Users\Dunia Méndez\Desktop\Dashboard\Dashboard\Dashboard\bin\Debug\Dashboard.pdb
+C:\Users\Dunia Méndez\Desktop\Dashboard\Dashboard\Dashboard\obj\Debug\Dashboard.csprojAssemblyReference.cache
+C:\Users\Dunia Méndez\Desktop\Dashboard\Dashboard\Dashboard\obj\Debug\Dashboard.LoginForm.resources
+C:\Users\Dunia Méndez\Desktop\Dashboard\Dashboard\Dashboard\obj\Debug\Dashboard.Properties.Resources.resources
+C:\Users\Dunia Méndez\Desktop\Dashboard\Dashboard\Dashboard\obj\Debug\Dashboard.csproj.GenerateResource.cache
+C:\Users\Dunia Méndez\Desktop\Dashboard\Dashboard\Dashboard\obj\Debug\Dashboard.exe
+C:\Users\Dunia Méndez\Desktop\Dashboard\Dashboard\Dashboard\obj\Debug\Dashboard.pdb
