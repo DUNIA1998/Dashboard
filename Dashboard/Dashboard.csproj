@@ -47,6 +47,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="UNA\Dashboard\Formularios\DashBoardForm.cs">
+    <Compile Include="DasboardForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DasboardForm.Designer.cs">
+      <DependentUpon>DasboardForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="UNA\Dashboard\Formularios\DashBoardForm.Designer.cs">
@@ -65,6 +72,10 @@
       <DependentUpon>DashBoardForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UNA\Dashboard\Formularios\LoginForm.resx">
+    <EmbeddedResource Include="DasboardForm.resx">
+      <DependentUpon>DasboardForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
