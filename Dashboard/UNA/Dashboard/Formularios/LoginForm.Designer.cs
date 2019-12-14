@@ -88,6 +88,7 @@
             this.cancelarButton.TabIndex = 4;
             this.cancelarButton.Text = "Cancelar";
             this.cancelarButton.UseVisualStyleBackColor = true;
+            this.cancelarButton.Click += new System.EventHandler(this.cancelarButton_Click);
             // 
             // aceptarButton
             // 
@@ -115,7 +116,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.cancelarButton;
-            this.ClientSize = new System.Drawing.Size(527, 450);
+            this.ClientSize = new System.Drawing.Size(510, 310);
             this.Controls.Add(this.olvidoCLinkLabel);
             this.Controls.Add(this.aceptarButton);
             this.Controls.Add(this.cancelarButton);

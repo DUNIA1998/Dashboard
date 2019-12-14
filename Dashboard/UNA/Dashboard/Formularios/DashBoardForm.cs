@@ -20,10 +20,15 @@ namespace Dashboard
 
         private void LoginForm_Load(object sender, EventArgs e)
         {
-            LoginForm loginForm = new LoginForm();
-            if(loginForm.ShowDialog() == DialogResult.OK)
-            {
+            
+        }
 
+        private void DashBoardForm_Load(object sender, EventArgs e)
+        {
+            LoginForm loginForm = new LoginForm();
+            if (loginForm.ShowDialog() == DialogResult.OK)
+            {
+                UserToolStripStatusLabel.Text = loginForm.Usuario.UserName;
             }
         }
     }

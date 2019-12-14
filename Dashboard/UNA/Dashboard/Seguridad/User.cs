@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace UNA.Dashboard.Seguridad
 {
-    class User
+    public class User
     {
         public string UserName
         {
