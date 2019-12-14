@@ -68,7 +68,7 @@
             this.usuarioTextBox.Name = "usuarioTextBox";
             this.usuarioTextBox.Size = new System.Drawing.Size(136, 20);
             this.usuarioTextBox.TabIndex = 2;
-            this.usuarioTextBox.Leave += new System.EventHandler(this.usuarioTextBox_Leave);
+            this.usuarioTextBox.Leave += new System.EventHandler(this.UsuarioTextBox_Leave);
             // 
             // contraseñaTextBox
             // 
@@ -77,7 +77,7 @@
             this.contraseñaTextBox.Size = new System.Drawing.Size(136, 20);
             this.contraseñaTextBox.TabIndex = 3;
             this.contraseñaTextBox.UseSystemPasswordChar = true;
-            this.contraseñaTextBox.Leave += new System.EventHandler(this.contraseñaTextBox_Leave);
+            this.contraseñaTextBox.Leave += new System.EventHandler(this.ContraseñaTextBox_Leave);
             // 
             // cancelarButton
             // 

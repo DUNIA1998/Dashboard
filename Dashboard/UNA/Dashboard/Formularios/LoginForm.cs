@@ -22,7 +22,7 @@ namespace Dashboard
 
         }
 
-        private void usuarioTextBox_Leave(object sender, EventArgs e)
+        private void UsuarioTextBox_Leave(object sender, EventArgs e)
         {
             if(usuarioTextBox.TextLength == 0)
             {
@@ -34,7 +34,7 @@ namespace Dashboard
             }
         }
 
-        private void contraseñaTextBox_Leave(object sender, EventArgs e)
+        private void ContraseñaTextBox_Leave(object sender, EventArgs e)
         {
             if (contraseñaTextBox.TextLength == 0)
             {

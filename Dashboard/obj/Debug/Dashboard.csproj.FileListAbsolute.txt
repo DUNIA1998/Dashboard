@@ -7,3 +7,13 @@ C:\Users\Dunia Méndez\Desktop\Dashboard\Dashboard\Dashboard\obj\Debug\Dashboard
 C:\Users\Dunia Méndez\Desktop\Dashboard\Dashboard\Dashboard\obj\Debug\Dashboard.csproj.GenerateResource.cache
 C:\Users\Dunia Méndez\Desktop\Dashboard\Dashboard\Dashboard\obj\Debug\Dashboard.exe
 C:\Users\Dunia Méndez\Desktop\Dashboard\Dashboard\Dashboard\obj\Debug\Dashboard.pdb
+C:\Users\josue\Desktop\Github\Dashboard\Dashboard\Dashboard\bin\Debug\Dashboard.exe.config
+C:\Users\josue\Desktop\Github\Dashboard\Dashboard\Dashboard\bin\Debug\Dashboard.exe
+C:\Users\josue\Desktop\Github\Dashboard\Dashboard\Dashboard\bin\Debug\Dashboard.pdb
+C:\Users\josue\Desktop\Github\Dashboard\Dashboard\Dashboard\obj\Debug\Dashboard.csprojAssemblyReference.cache
+C:\Users\josue\Desktop\Github\Dashboard\Dashboard\Dashboard\obj\Debug\Dashboard.DashBoardForm.resources
+C:\Users\josue\Desktop\Github\Dashboard\Dashboard\Dashboard\obj\Debug\Dashboard.LoginForm.resources
+C:\Users\josue\Desktop\Github\Dashboard\Dashboard\Dashboard\obj\Debug\Dashboard.Properties.Resources.resources
+C:\Users\josue\Desktop\Github\Dashboard\Dashboard\Dashboard\obj\Debug\Dashboard.csproj.GenerateResource.cache
+C:\Users\josue\Desktop\Github\Dashboard\Dashboard\Dashboard\obj\Debug\Dashboard.exe
+C:\Users\josue\Desktop\Github\Dashboard\Dashboard\Dashboard\obj\Debug\Dashboard.pdb
