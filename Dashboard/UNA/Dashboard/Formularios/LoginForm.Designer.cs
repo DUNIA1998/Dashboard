@@ -81,6 +81,7 @@
             // 
             // cancelarButton
             // 
+            this.cancelarButton.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.cancelarButton.Location = new System.Drawing.Point(84, 260);
             this.cancelarButton.Name = "cancelarButton";
             this.cancelarButton.Size = new System.Drawing.Size(87, 23);
@@ -96,6 +97,7 @@
             this.aceptarButton.TabIndex = 5;
             this.aceptarButton.Text = "Aceptar";
             this.aceptarButton.UseVisualStyleBackColor = true;
+            this.aceptarButton.Click += new System.EventHandler(this.aceptarButton_Click);
             // 
             // olvidoCLinkLabel
             // 

@@ -45,5 +45,10 @@ namespace Dashboard
                 LoginErrorProvider.SetError(contraseñaTextBox, "");
             }
         }
+
+        private void aceptarButton_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
